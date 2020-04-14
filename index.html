@@ -4,52 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathan Ricciardi's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div id="wrapper">
         <nav role="navigation">
-            <h1>Navigation</h1>
+            <div class="nav-top">
+                <h1>NathanRicciardi.com</h1>
+                <img src="https://cdn3.iconfinder.com/data/icons/mobile-banking-ver-4a/100/1-48-512.png" alt="" class="nav-icon js-nav-icon">
+            </div>
+            <ul class="nav-list js-nav-list">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
         <main role="main">
-            <section class="section">
-                <h2>About Section Heading</h2>
-                <p>About Section Content</p>
+            <section class="section" id="about">
+                <h2>Hello World, I'm Nathan</h2>
+                <p>I'm a fullstack developer and UX/UI designer who is passionate about creating practical solutions to meaningful challenges.</p>
+                <p>I enjoy working with HTML, CSS, JavaScript, jQuery, Reach, and Node to make simple yet powerful creations.</p>
+                <p>I also enjoy dogs, doughnuts, and mountain biking.</p>
             </section>
-            <section class="section">
-                <h2>Project Section Heading</h2>
+            <section class="section" id="projects">
+                <h2>Projects</h2>
                 <section class="project">
-                    <h3>Project Title</h3>
-                    <img src="" alt="Project Screenshot">
-                    <p>Project Description</p>
-                    <p>Tech Used</p>
-                    <p>Project Links</p>
-                </section>
-                <section class="project">
-                    <h3>Project Title</h3>
-                    <img src="" alt="Project Screenshot">
-                    <p>Project Description</p>
-                    <p>Tech Used</p>
-                    <p>Project Links</p>
-                </section>
-                <section class="project">
-                    <h3>Project Title</h3>
-                    <img src="" alt="Project Screenshot">
-                    <p>Project Description</p>
-                    <p>Tech Used</p>
-                    <p>Project Links</p>
-                </section>
+                    <h3>Doughnut Quiz App</h3>
+                    <img src="assets/quiz_app.png" alt="Doughnut Quiz Screenshot">
+                    <p>Who doesn't like doughnuts? Test your knowledge of doughnut history with this quiz built with HTML, CSS, JavaScript, and jQuery.</p>
+                    <ul>
+                        <li><img src="assets/html5logo.png" alt="HTML5 logo"></li>
+                        <li><img src="assets/css3logo.png" alt="CSS3 logo"></li>
+                        <li><img src="assets/javascriptlogo.png" alt="JavaScript logo"></li>
+                        <li><img src="assets/jquerylogo.png" alt="jQuery logo"></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Live Link</a></li>
+                        <li>|</li>
+                        <li><a href="">GitHub Repository</a></li>
+                    </ul>
+                </section>                
             </section>
-            <section class="section">
-                <h2>Contact Section Heading</h2>
-                <p>Email</p>
-                <p>GitHub</p>
-                <p>LinkedIn</p>
+            <section class="section" id="contact">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li><a href="mailto:nathan.ricciardi@gmail.com">Email</a></li>
+                    <li>|</li>
+                    <li><a href="https://github.com/ricciardi13">GitHub Profile</a></li>
+                    <li>|</li>
+                    <li><a href="https://www.linkedin.com/in/nathan-ricciardi-56a02b125/">LinkedIn Profile</a></li>
+                </ul>
             </section>            
         </main>
         <footer>
-            <h2>Footer</h2>
+            <h2>Email me at <a href="mailto:nathan.ricciardi@gmail.com">Nathan.Ricciardi@gmail.com</a></h2>
         </footer>           
     </div>    
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
